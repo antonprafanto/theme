@@ -18,25 +18,25 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          // brightness: Brightness.dark,
-          // scaffoldBackgroundColor: Colors.amber,
-          // primarySwatch: Colors.amber,
-          // appBarTheme: AppBarTheme(
-          //   centerTitle: true,
-          //   backgroundColor: Colors.red,
-          // ),
-          // accentColor: Colors.green,
+          //brightness: Brightness.dark,
+          scaffoldBackgroundColor: Colors.amber,
+          //primarySwatch: Colors.green,
+          /*appBarTheme: AppBarTheme(
+            centerTitle: true,
+            backgroundColor: Colors.green,
+          ),*/
+          //accentColor: Colors.green,
           elevatedButtonTheme: ElevatedButtonThemeData(
-        style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all<Color>(Colors.orange)),
-      )),
+            style: ButtonStyle(
+                backgroundColor: MaterialStateProperty.all<Color>(Colors.red)),
+          )),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Icon(Icons.add),
         ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+        floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
         appBar: AppBar(
           title: Text(
             "Theme",
