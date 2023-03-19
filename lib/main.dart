@@ -21,10 +21,10 @@ class _MyAppState extends State<MyApp> {
           //brightness: Brightness.dark,
           scaffoldBackgroundColor: Colors.amber,
           //primarySwatch: Colors.green,
-          /*appBarTheme: AppBarTheme(
+          appBarTheme: AppBarTheme(
             centerTitle: true,
             backgroundColor: Colors.green,
-          ),*/
+          ),
           //accentColor: Colors.green,
           elevatedButtonTheme: ElevatedButtonThemeData(
             style: ButtonStyle(
